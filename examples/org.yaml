@@ -15,3 +15,16 @@ metadata:
 spec:
   type: team
   children: []
+---
+# Local owner group for this repo
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: fa22-bcs-183
+  description: Default owner group for local development
+spec:
+  type: team
+  profile:
+    displayName: FA22-BCS-183
+    email: fa22-bcs-183@cuilahore.edu.pk
+  children: []

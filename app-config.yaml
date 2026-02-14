@@ -78,6 +78,13 @@ catalog:
   rules:
     - allow: [Component, System, API, Resource, Location]
   locations:
+    # Entities defined in this repo
+    - type: file
+      target: ../../catalog-info.yaml
+
+    - type: file
+      target: ../../flask-tailwind/catalog-info.yaml
+
     # Local example data, file locations are relative to the backend process, typically `packages/backend`
     - type: file
       target: ../../examples/entities.yaml

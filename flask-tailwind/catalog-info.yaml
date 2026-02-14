@@ -9,4 +9,4 @@ metadata:
 spec:
   type: service
   lifecycle: development
-  owner: fa22-bcs-183@cuilahore.edu.pk
+  owner: group:default/fa22-bcs-183
